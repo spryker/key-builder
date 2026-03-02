@@ -13,9 +13,6 @@ class KeyBuilder
 {
     use KeyBuilderTrait;
 
-    /**
-     * @return string
-     */
     public function getBundleName(): string
     {
         return 'key-builder';

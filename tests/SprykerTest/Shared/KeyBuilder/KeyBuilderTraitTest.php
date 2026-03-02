@@ -42,9 +42,6 @@ class KeyBuilderTraitTest extends Unit
         $this->assertSame($expectedGeneratedKey, $generatedKey);
     }
 
-    /**
-     * @return array
-     */
     public function generateKey(): array
     {
         $storeName = strtolower(static::STORE_NAME);
